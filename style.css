@@ -22,6 +22,14 @@
     border-radius: 20px;
      
 }
+.Father-container{
+    align-items: center;
+    
+    
+    
+    
+
+}
 button{
     background-color: #4CAF50;
     padding:10px 40px;
@@ -56,9 +64,75 @@ input-box1{
     margin-top: 50px;
 
 }
+
 h3{
     background-color: azure;
     font-family: OCR A Std, monospace;
+}
+.max-container{
+    display: flex;
+   
+    justify-content: center;
+    
+   
+
+}
+.container3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border:2px solid black;
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:azure;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.container4{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border:2px solid black;
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:azure;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.container5{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border:2px solid black;
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:azure;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.container6{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border:2px solid black;
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:azure;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+p{
+    background-color: azure;
+    font-family: OCR A Std, monospace;
+
 }
 
 

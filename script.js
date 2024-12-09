@@ -18,7 +18,9 @@ toDoForm.addEventListener('submit', (event) => {
     toDoInput.value = '';
     timeInput.value = '';
 
-})
+
+
+});
 
 
 function addTask (task,time){
@@ -30,14 +32,27 @@ function addTask (task,time){
     taskTitle.textContent = task;
 
     const taskTime = document.createElement('p');
+
     taskTime.textContent =`Time: ${time}` ;
+    const delete1 = document.createElement('button');
+    delete1.textContent="Delete"
+    delete1.classList.add('deleteButton');
+    delete1.addEventListener("click", (event)=>{
+        ListContainer.removeChild(taskBox);
+    });
+
+   
+
+
 
 
     taskBox.appendChild(taskTitle);
     taskBox.appendChild(taskTime);
+    taskBox.appendChild(delete1);
 
     ListContainer.style.display='flex'
     ListContainer.appendChild(taskBox);
 
 }
+
 
